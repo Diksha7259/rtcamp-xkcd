@@ -1,0 +1,17 @@
+# Ignore sensitive files inside src
+src/.env
+src/registered_emails.txt
+src/codes.json
+
+# Ignore Composer dependencies (can be reinstalled via composer install)
+src/vendor/
+
+# Ignore logs or IDE settings
+*.log
+.vscode/
+.idea/
+.DS_Store
+
+# Optional: ignore backup or temp files
+*.bak
+*.tmp
